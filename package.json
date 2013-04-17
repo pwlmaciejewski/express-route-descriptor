@@ -1,0 +1,41 @@
+{
+  "name": "express-route-descriptor",
+  "description": "Minimal Express.js route injection",
+  "version": "0.0.1",
+  "homepage": "http://fragphace.pl",
+  "author": {
+    "name": "Paweł Maciejewski",
+    "email": "fragphace@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fragphace/express-route-descriptor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fragphace/express-route-descriptor/issues"
+  },
+  "main": "lib/route-descriptor",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "keywords": [
+    "express",
+    "router"
+  ],
+  "devDependencies": {
+    "buster": "~0.6.12",
+    "grunt": "~0.4.1",
+    "grunt-contrib-coffee": "~0.6.5",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-watch": "~0.3.1",
+    "grunt-buster": "~0.1.2",
+    "sinon": "~1.6.0",
+    "express": "~3.2.0"
+  },
+  "dependencies": {
+    "underscore": "~1.4.4"
+  }
+}
