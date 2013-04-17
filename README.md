@@ -1,4 +1,4 @@
-# Express-route-descriptor
+# Express-route-descriptor [![Build Status](https://travis-ci.org/fragphace/express-route-descriptor.png)](https://travis-ci.org/fragphace/express-route-descriptor)
 
 Allows you to represent a route as an object and gives you a methods 
 to easily inject it into Express.js router.
